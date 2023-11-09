@@ -1,4 +1,4 @@
-/*Calculator Body*/
+
 .calcu-body {
     width: 275px;
     margin: auto;
@@ -6,7 +6,7 @@
     box-shadow: 0 8px 50px -7px black;
     background: #3A4655;
 }
-/*Calculator Display Screen*/
+
 .calcu-screen {
     padding: 1rem;
 }
@@ -21,7 +21,6 @@
     text-align: right;
     color: #fff;
 }
-/*Calculator Buttons*/
 .calcu-button-row{
     display: table;
 }
@@ -43,7 +42,6 @@
 .calcu-button-row button.opt {
     color: #ffbc56;
 }
-/*The border has been managed in every fourth button so that the design will not distract.*/
 .calcu-button-row button:nth-child(4n){
     border-right: none;
 }
